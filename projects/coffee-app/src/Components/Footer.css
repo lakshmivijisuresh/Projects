@@ -1,0 +1,50 @@
+/*footer*/
+footer {
+  background: var(--black);
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+}
+footer .logo {
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+footer .logo .dot {
+  background: var(--blue);
+}
+footer h3 {
+  color: var(--blue);
+  margin-bottom: 0.5rem;
+}
+footer p {
+  width: 50%;
+  margin: 0 auto 1rem auto;
+  color: rgb(156, 156, 156);
+}
+footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .social a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--blue);
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .social a:last-child {
+  margin-right: 0;
+}
+footer .social svg {
+  color: white;
+}
+
+@media (max-width: 750px) {
+  footer p {
+    width: 80%;
+  }
+}

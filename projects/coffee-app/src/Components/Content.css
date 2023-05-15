@@ -1,0 +1,92 @@
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  /*background:linear-gradient(90deg, rgba(52,1,11,1) 0%, rgba(121,9,9,1) 36%, rgba(255,0,0,1)100%);*/
+  background: linear-gradient(
+    90deg,
+    rgb(86, 218, 77) 0%,
+    rgb(96, 96, 243) 35%,
+    rgb(30, 199, 232) 100%
+  );
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: radial-gradient(
+    circle,
+    rgb(244, 89, 120) 0%,
+    rgba(121, 9, 9, 1) 36%,
+    rgb(249, 45, 45) 100%
+  );
+}
+
+::webkit-scrollbar-track {
+  background: #e4e576;
+}
+
+.content {
+  display: flex;
+  font-size: 40px;
+  width: 100%;
+  height: 1100px;
+  background-color: #4abdc7;
+}
+
+.left-section {
+  flex: 1;
+  margin-top: 22%;
+  margin-left: 10%;
+  font-size: 38px;
+}
+
+.right-section {
+  flex: 1;
+}
+.scroll {
+  position: absolute;
+  bottom: 10rem;
+  z-index: 1;
+}
+.scroll a {
+  color: var(--black);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.scroll a:hover {
+  color: var(--black);
+}
+.location-btn {
+  height: 35px;
+  background: var(--red);
+  color: rgb(243, 236, 236);
+  border: none;
+  cursor: pointer;
+  padding: 0.7rem 1rem;
+  border-radius: 3px;
+  box-shadow: 10px 10px 24px -1px rgba(240, 170, 170, 0.75);
+}
+.coffee_cup {
+  /*background: var(--blue);*/
+  padding: 2rem 10% 0rem 10%;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 47vh;
+}
+
+.coffee_cup {
+  background: var(--black);
+  width: 65 rem;
+  height: 37 rem;
+  border-radius: 20 rem;
+  transform: rotate(-60deg);
+  right: -15rem;
+  top: -10 rem;
+  position: absolute;
+  z-index: 0;
+}
